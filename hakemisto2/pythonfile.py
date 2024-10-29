@@ -1,1 +1,1 @@
-print("moikka")
+print("moikka moi")
