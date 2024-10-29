@@ -65,7 +65,7 @@ class TestVarasto(unittest.TestCase):
         varasto = Varasto(10, 1)
         varasto.ota_varastosta(-5)
 
-        self.assertEqual(varasto.saldo, 10)
+        self.assertEqual(varasto.saldo, 1)
 
     def test_varastosta_ei_voi_ottaa_saldoa_enempää(self):
         varasto = Varasto(10, 8)
